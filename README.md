@@ -1,43 +1,36 @@
 # Financial Health Assessment Tool for SMEs
 
-This project is a Financial Health Assessment Tool designed for Small and Medium Enterprises (SMEs).
-
-It analyzes financial data such as revenue, expenses, and loans to provide insights into business health.
+## Overview
+This project is an AI-powered Financial Health Assessment Tool designed for Small and Medium Enterprises (SMEs). It helps business owners quickly understand their financial condition using basic financial data.
 
 ## Features
-- Financial health score calculation
-- Creditworthiness evaluation
-- Profit and expense analysis
-- Simple financial forecasting
-- AI-style business recommendations
+- Calculates total revenue, total expenses, and profit
+- Computes a financial health score and credit score
+- Performs simple financial forecasting
+- Provides AI-style recommendations for business decisions
+- Publicly accessible deployed application
 
-## Tech Stack
-- Python
-- Flask
-- Pandas
+## Technology Stack
+- Backend: Python, Flask
+- Data Processing: Pandas
+- Deployment: Render
+- Data Format: CSV
 
-## Input
-- CSV file containing:
-  - Revenue
-  - Expenses
-  - Loan details
-
-## Output
-- JSON-based financial summary including:
-  - Total revenue
-  - Total expenses
-  - Profit
-  - Health score
-  - Credit score
-  - Forecasted revenue and profit
-  - AI recommendations
+## How It Works
+The application reads financial data such as revenue, expenses, and loan values from a CSV file. Based on this data, it calculates key financial metrics and returns them as a JSON response through a web API.
 
 ## Use Case
-This tool helps SME owners understand their financial condition and take better business decisions.
+This tool helps SMEs identify financial risks, understand profitability, and receive actionable insights without needing advanced financial knowledge.
 
 ## Future Enhancements
-- Integration with real AI models
+- Advanced AI-based forecasting
+- Creditworthiness modeling
 - GST and banking API integration
-- Frontend dashboard using React
+- Frontend dashboard for visualization
 - Multilingual support
-- Enhanced security and compliance
+
+## Live Demo
+Deployed URL: https://YOUR-RENDER-URL-HERE
+
+## GitHub Repository
+https://github.com/Dhaksha333/financial-health-tool
